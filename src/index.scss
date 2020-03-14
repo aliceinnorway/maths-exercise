@@ -1,0 +1,15 @@
+$main-clr-gradient: rgb(78,107,255);
+$main-gradient: linear-gradient(90deg, rgba(78,107,255,1) 0%, rgba(253,45,29,1) 100%);
+$font: 'Concert One', cursive;
+$font-color: white;
+
+body {
+  background: $main-clr-gradient;
+  background: $main-gradient;
+}
+
+* {
+  font-family: $font;
+  color: $font-color;
+}
+

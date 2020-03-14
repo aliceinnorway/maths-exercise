@@ -1,0 +1,30 @@
+body {
+  background: #4e6bff;
+  background: -webkit-gradient(linear, left top, right top, from(#4e6bff), to(#fd2d1d));
+  background: linear-gradient(90deg, #4e6bff 0%, #fd2d1d 100%);
+}
+
+* {
+  font-family: "Concert One", cursive;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  display: flexbox;
+}
+
+.title {
+  font-size: 4vw;
+}
+
+button {
+  color: purple;
+  font-size: 2vw;
+  background: white;
+  border: 2px solid white;
+  border-radius: 18px;
+  margin: 0 auto;
+  display: block;
+}
+/*# sourceMappingURL=App.css.map */

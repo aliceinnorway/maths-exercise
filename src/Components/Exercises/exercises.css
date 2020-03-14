@@ -1,0 +1,35 @@
+section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10vw;
+}
+
+.question {
+  padding-right: 1vw;
+}
+
+.answerbox {
+  padding-left: 1vw;
+}
+
+.input-field {
+  border: none;
+  border-bottom: 2px solid white;
+  width: 10vw;
+  color: white;
+  font-size: 10vw;
+  background-color: transparent;
+}
+
+.input-label {
+  position: relative;
+  display: block;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=exercises.css.map */
